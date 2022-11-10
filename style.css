@@ -1,0 +1,104 @@
+.home{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: linear-gradient( rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%),url(bg-method.image.jpg);
+}
+.bg-color {
+    background:transparent !important;
+    transition: 1.5s ease-in;
+  }
+  
+  .bg-color.scrolled {
+    background:white!important;
+  }
+.first h1{
+    font-size: 6rem;
+    line-height: 6rem;
+    letter-spacing: 1rem;
+    color: #aaaaaa; 
+}
+#q1{
+    color: #ffffff80;
+    font-weight: 500;
+    font-size: 24px;
+}
+#q2{
+    color: #ffffff80;
+}
+#btn1{
+    box-shadow: 0 0.1875rem 0.1875rem 0 rgb(0 0 0 / 10%) !important;
+    padding: 1.25rem 2rem;
+    letter-spacing: 0.15rem;
+    border: 0;
+    color: #fff;
+    background-color: #64a19d;
+    font-size: 1rem;
+}
+.second{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: linear-gradient( rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%),url(bg-signup.jpg);
+}
+#about{
+    padding-top: 10rem;
+    background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+}
+.second input{
+    width: 50%;
+    height: 60px;
+}
+.second button{
+    height: 60px;
+    color: #fff;
+    background-color: #64a19d;
+    font-size: 1rem;
+}
+#i1{
+    margin-top: 11% !important;
+    font-size: 40px;
+}
+hr{
+    width: 120px;
+    margin: auto !important;
+}
+#z1{
+  width: 50px;
+  height: 50px;
+  font-size: 300%;
+  color: #ffffffa1;
+}
+#z2{
+    width: 50px;
+    height: 50px;
+    font-size: 300%;
+    color: #ffffffa1;
+  }
+  #z3{
+    width: 50px;
+    height: 50px;
+    font-size: 300%;
+    color: #ffffffa1;
+  }
+.z4{
+    color: #ffffffa1;
+    margin-bottom: 5%;
+
+}
+#z5{
+    color: none;
+}
+@media (max-width:700px){
+    .first h1{
+        font-size: 3rem;
+        line-height: 6rem;
+        letter-spacing: 1rem;
+        color: #aaaaaa; 
+    }
+}
+@media (min-width:1200px){
+    .container1{
+        max-width: 1072px !important;
+    }  
+}
