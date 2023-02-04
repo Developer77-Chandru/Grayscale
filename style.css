@@ -18,6 +18,9 @@
     letter-spacing: 1rem;
     color: #aaaaaa; 
 }
+.mt-4{
+    margin-top: 10.5rem!important;
+}
 #q1{
     color: #ffffff80;
     font-weight: 500;
